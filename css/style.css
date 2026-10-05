@@ -1,0 +1,1092 @@
+/* =========================================
+   RIAZO ENGENHARIA - STYLE
+   ========================================= */
+
+
+/* =========================================
+   CONFIGURAÇÕES GERAIS
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f5f0;
+    color: #263238;
+}
+
+
+/* =========================================
+   CABEÇALHO
+   ========================================= */
+
+header {
+    background-color: #ffffff;
+    color: #102f46;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+header p {
+    margin: 10px 0 0;
+    color: #102f46;
+}
+
+/* =========================================
+   MENU
+   ========================================= */
+
+nav {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    border-bottom: 3px solid #4f8f3a;
+}
+
+nav a {
+    color: #102f46;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4f8f3a;
+}
+
+
+/* =========================================
+   CONTEÚDO PRINCIPAL
+   ========================================= */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* =========================================
+   HERO
+   ========================================= */
+
+.hero {
+    position: relative;
+    min-height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    background-color: #dcd8cf;
+}
+
+.hero-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(16, 47, 70, 0.90);
+    color: white;
+    padding: 40px;
+    max-width: 520px;
+}
+
+.hero-content h2 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.hero-content a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 24px;
+    background-color: #4f8f3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.hero-content a:hover {
+    background-color: #102f46;
+}
+
+
+/* =========================================
+   SEÇÕES GERAIS
+   ========================================= */
+
+section {
+    background-color: white;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+section h2 {
+    color: #102f46;
+}
+
+section p {
+    line-height: 1.7;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+/* =========================================
+   SOBRE - HOME
+   ========================================= */
+
+.about-home {
+    background-color: #ffffff;
+    padding: 80px 60px;
+    margin-top: 30px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-home h2 {
+    color: #102f46;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-home h3 {
+    color: #4f8f3a;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.about-home p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.about-home a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 24px;
+    background-color: #4f8f3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.about-home a:hover {
+    background-color: #102f46;
+}
+
+
+/* =========================================
+   SERVIÇOS
+   ========================================= */
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.services-home h2 {
+    text-align: center;
+    color: #102f46;
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+
+.service {
+    background-color: white;
+    padding: 35px;
+    border-top: 4px solid #4f8f3a;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.service h3 {
+    color: #102f46;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.service p {
+    color: #333;
+    line-height: 1.7;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+
+/* =========================================
+   PROJETOS
+   ========================================= */
+
+.projects-home h2 {
+    text-align: center;
+    color: #102f46;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.projects-intro {
+    text-align: center;
+    color: #555;
+    margin-bottom: 45px;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background-color: #f7f5f0;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    width: 100%;
+}
+
+.project-card img {
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+.project-content {
+    padding: 30px;
+    text-align: center;
+}
+
+.project-content h3 {
+    color: #102f46;
+    font-size: 23px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.project-content p {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.projects-button {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    padding: 14px 28px;
+    background-color: #4f8f3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.projects-button:hover {
+    background-color: #102f46;
+}
+
+
+/* =========================================
+   REVIEWS
+   ========================================= */
+
+.reviews-home {
+    background-color: #f7f5f0;
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.reviews-home h2 {
+    color: #102f46;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.reviews-intro {
+    color: #555;
+    margin-bottom: 45px;
+}
+
+.reviews-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.review-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.review-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* =========================================
+   PÁGINA A EMPRESA
+   ========================================= */
+
+.about-page {
+    background-color: #ffffff;
+    padding: 80px 50px;
+    margin-top: 25px;
+}
+
+.about-page-content {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.about-page h1 {
+    color: #102f46;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.about-page h2 {
+    color: #102f46;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.about-page p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+
+/* =========================================
+   BANNER - A EMPRESA
+   ========================================= */
+
+.company-banner {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    display: block;
+    margin: 25px auto 35px;
+}
+
+
+/* =========================================
+   SEÇÕES DA EMPRESA
+   ========================================= */
+
+.company-section {
+    background-color: #ffffff;
+    padding: 60px 50px;
+    margin-top: 25px;
+}
+
+.company-section h2 {
+    color: #102f46;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.company-section > p {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+/* =========================================
+   NOSSA ATUAÇÃO
+   ========================================= */
+
+.company-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.company-photo {
+    text-align: center;
+}
+
+.company-photo img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.company-text h2 {
+    color: #102f46;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.company-text p {
+    color: #333;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+
+/* =========================================
+   NOSSA FORMA DE TRABALHO
+   ========================================= */
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 35px auto 0;
+}
+
+.work-item {
+    background-color: #f7f5f0;
+    padding: 30px;
+    border-top: 4px solid #4f8f3a;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.work-item h3 {
+    color: #102f46;
+    font-size: 21px;
+    margin-top: 0;
+}
+
+.work-item p {
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   FORMAÇÃO E APERFEIÇOAMENTO
+   ========================================= */
+
+.formation-section {
+    background-color: #ffffff;
+    padding: 70px 50px;
+    margin-top: 25px;
+}
+
+.formation-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.formation-photo {
+    text-align: center;
+}
+
+.formation-photo img {
+    width: 100%;
+    max-width: 300px;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.formation-text h2 {
+    color: #102f46;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.formation-text h3 {
+    color: #4f8f3a;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.formation-text p {
+    color: #333;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+/* =========================================
+   PÁGINA DE PROJETOS
+   ========================================= */
+
+.portfolio-page {
+    background-color: #ffffff;
+    padding: 70px 50px;
+    margin-top: 25px;
+}
+
+.portfolio-intro {
+    max-width: 850px;
+    margin: 0 auto;
+      text-align: center;
+
+}
+
+.portfolio-intro h1 {
+    color: #102f46;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.portfolio-intro p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+/* =========================================
+   PROJETO INDIVIDUAL
+   ========================================= */
+
+.portfolio-project {
+    background-color: #ffffff;
+    padding: 60px 50px;
+    margin-top: 25px;
+}
+
+.portfolio-project-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.portfolio-project h2 {
+    color: #102f46;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.project-location {
+    color: #4f8f3a;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.portfolio-project-image {
+    width: 80%;
+    max-width: 850px;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.project-details {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-details p {
+    color: #333;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.portfolio-project-content h2 {
+    text-align: center;
+}
+
+.project-location {
+    text-align: center;
+}
+/* =========================================
+   ENGENHARIA INTEGRADA - FINAL
+   ========================================= */
+
+.integrated-final {
+    background-color: #102f46;
+    padding: 70px 50px;
+    margin-top: 25px;
+}
+
+.integrated-final-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.integrated-final h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.integrated-final p {
+    color: white;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+/* =========================================
+   ENGENHARIA INTEGRADA
+   ========================================= */
+
+.integrated-section {
+    background-color: #102f46;
+    padding: 70px 50px;
+    margin-top: 25px;
+}
+
+.integrated-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.integrated-content h2 {
+    color: white;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.integrated-intro {
+    color: white;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 45px;
+}
+
+.integrated-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.integrated-service {
+    background-color: white;
+    padding: 30px;
+    border-top: 4px solid #4f8f3a;
+    text-align: left;
+}
+
+.integrated-service h3 {
+    color: #102f46;
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.integrated-service p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* =========================================
+   INFORMAÇÕES DE CONTATO
+   ========================================= */
+.contact-page {
+    background-color: #ffffff;
+    padding: 70px 50px;
+    margin-top: 25px;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-content h1 {
+    color: #102f46;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0 auto;
+}
+.contact-info {
+    background-color: #102f46;
+    padding: 70px 50px;
+    margin-top: 25px;
+}
+
+.contact-info-content {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.contact-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.contact-item {
+    background-color: #f7f5f0;
+    padding: 30px;
+    border-top: 4px solid #4f8f3a;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-item h3 {
+    color: #102f46;
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.contact-item p {
+    color: #333;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0;
+}
+/* =========================================
+   FORMULÁRIO DE CONTATO
+   ========================================= */
+
+.contact-form-section {
+    background-color: #f7f5f0;
+    padding: 70px 50px;
+    margin-top: 25px;
+}
+
+.contact-form-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-form-content h2 {
+    color: #102f46;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-form-content > p {
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form-content label {
+    display: block;
+    color: #102f46;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contact-form-content input,
+.contact-form-content textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 22px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form-content textarea {
+    resize: vertical;
+}
+
+.contact-form-content input:focus,
+.contact-form-content textarea:focus {
+    outline: none;
+    border-color: #4f8f3a;
+}
+
+.contact-form-content button {
+    display: block;
+    margin: 5px auto 0;
+    padding: 14px 30px;
+    background-color: #4f8f3a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form-content button:hover {
+    background-color: #102f46;
+}
+/* =========================================
+   RODAPÉ
+   ========================================= */
+
+footer {
+    background-color: #102f46;
+    color: white !important;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 30px;
+
+    /* Faz o rodapé ocupar a largura inteira
+       mesmo se estiver dentro do main */
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+}
+
+footer p {
+    color: white !important;
+    line-height: 1.7;
+    margin: 10px 0;
+}
+/* =========================================
+   CARROSSEL DE PROJETOS
+   ========================================= */
+
+.project-carousel {
+    position: relative;
+    width: 80%;
+    max-width: 850px;
+    margin: 0 auto 30px;
+    overflow: hidden;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    display: block;
+    background-color: #f7f5f0;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(16, 47, 70, 0.8);
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.carousel-button:hover {
+    background-color: #4f8f3a;
+}
+
+.carousel-button.prev {
+    left: 15px;
+}
+
+.carousel-button.next {
+    right: 15px;
+}
+
+}
+/* =========================================
+   RESPONSIVIDADE
+   ========================================= */
+/* =========================================
+   AVALIAÇÕES
+   ========================================= */
+
+.reviews-home {
+    background-color: #102f46;
+    padding: 70px 50px;
+    margin-top: 25px;
+}
+
+.reviews-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reviews-content h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.reviews-intro {
+    color: white;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.reviews-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.review-card {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.review-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 700px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .hero {
+        padding: 30px;
+        min-height: 450px;
+    }
+
+    .hero-content h2 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-list {
+        grid-template-columns: 1fr;
+    }
+
+    .work-list {
+        grid-template-columns: 1fr;
+    }
+
+    .about-page {
+        padding: 50px 30px;
+    }
+
+    .company-section {
+        padding: 50px 30px;
+    }
+
+    .company-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .company-photo img {
+        height: 350px;
+    }
+
+    .formation-section {
+        padding: 50px 30px;
+    }
+
+    .formation-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .formation-photo img {
+        height: 350px;
+    }
+
+    .reviews-list {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card img {
+        width: 80%;
+        height: 300px;
+    }
+
+    .company-banner {
+        width: 70%;
+        height: 140px;
+    }
+
+    .reviews-list {
+    grid-template-columns: 1fr;
+}
+
+.reviews-home {
+    padding: 50px 30px;
+}
+
+}.contact-list {
+    grid-template-columns: 1fr;
+}
